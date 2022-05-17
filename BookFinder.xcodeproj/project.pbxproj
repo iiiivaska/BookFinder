@@ -11,6 +11,8 @@
 		A80632AE2833CE1C00D40F04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80632AD2833CE1C00D40F04 /* ContentView.swift */; };
 		A80632B02833CE1D00D40F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80632AF2833CE1D00D40F04 /* Assets.xcassets */; };
 		A80632B32833CE1D00D40F04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80632B22833CE1D00D40F04 /* Preview Assets.xcassets */; };
+		A80632BA2833D03500D40F04 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80632B92833D03500D40F04 /* ImagePicker.swift */; };
+		A80632BC2833E1A900D40F04 /* requests in Resources */ = {isa = PBXBuildFile; fileRef = A80632BB2833E1A900D40F04 /* requests */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A80632AD2833CE1C00D40F04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A80632AF2833CE1D00D40F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A80632B22833CE1D00D40F04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A80632B92833D03500D40F04 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A80632BB2833E1A900D40F04 /* requests */ = {isa = PBXFileReference; lastKnownFileType = text; path = requests; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				A80632AB2833CE1C00D40F04 /* BookFinderApp.swift */,
 				A80632AD2833CE1C00D40F04 /* ContentView.swift */,
+				A80632B92833D03500D40F04 /* ImagePicker.swift */,
 				A80632AF2833CE1D00D40F04 /* Assets.xcassets */,
 				A80632B12833CE1D00D40F04 /* Preview Content */,
+				A80632BB2833E1A900D40F04 /* requests */,
 			);
 			path = BookFinder;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80632BC2833E1A900D40F04 /* requests in Resources */,
 				A80632B32833CE1D00D40F04 /* Preview Assets.xcassets in Resources */,
 				A80632B02833CE1D00D40F04 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80632BA2833D03500D40F04 /* ImagePicker.swift in Sources */,
 				A80632AE2833CE1C00D40F04 /* ContentView.swift in Sources */,
 				A80632AC2833CE1C00D40F04 /* BookFinderApp.swift in Sources */,
 			);
@@ -270,6 +278,8 @@
 				DEVELOPMENT_TEAM = S3DKN9HQ5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "BookFinder необходимо получить доступ к вашей камере";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "BookFinder необходимо получить доступ к вашей галерее";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +309,8 @@
 				DEVELOPMENT_TEAM = S3DKN9HQ5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "BookFinder необходимо получить доступ к вашей камере";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "BookFinder необходимо получить доступ к вашей галерее";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -9,9 +9,11 @@ import Vision
 import SwiftUI
 
 struct ContentView: View {
+    
     @State private var image = UIImage()
     @State private var showSheet = false
     @State private var imageText = "image text"
+    
     var body: some View {
         VStack {
             Button(action: {
@@ -26,9 +28,19 @@ struct ContentView: View {
 //            })
             Image(uiImage: self.image)
                 .resizable()
-                .frame(width: 200, height: 200)
+                .frame(height: 200)
                 .background(.gray)
             Text(imageText)
+                .padding()
+            Button(action: {
+                print(imageText)
+                let preparedRequest = PrepareRequests(inputString: imageText)
+                print(preparedRequest.getAllRawRequests())
+                print(preparedRequest.getAllPreparedRequests())
+                APIConnector(requests: preparedRequest)
+            }, label: {
+                Label("Поиск", systemImage: "magnifyingglass.circle.fill")
+            })
         }
         .sheet(isPresented: $showSheet) {
             ImagePicker(sourceType: .photoLibrary, selectedImage: self.$image)

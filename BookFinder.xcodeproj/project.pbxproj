@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08FD976F2854BA4400BF25DE /* APIConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FD976E2854BA4400BF25DE /* APIConnector.swift */; };
+		08FD97712854C35000BF25DE /* PrepareRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FD97702854C35000BF25DE /* PrepareRequests.swift */; };
+		08FD97732854DC5100BF25DE /* RawBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FD97722854DC5100BF25DE /* RawBooks.swift */; };
+		08FD97752854E52200BF25DE /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FD97742854E52200BF25DE /* Books.swift */; };
 		A80632AC2833CE1C00D40F04 /* BookFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80632AB2833CE1C00D40F04 /* BookFinderApp.swift */; };
 		A80632AE2833CE1C00D40F04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80632AD2833CE1C00D40F04 /* ContentView.swift */; };
 		A80632B02833CE1D00D40F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80632AF2833CE1D00D40F04 /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08FD976E2854BA4400BF25DE /* APIConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConnector.swift; sourceTree = "<group>"; };
+		08FD97702854C35000BF25DE /* PrepareRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareRequests.swift; sourceTree = "<group>"; };
+		08FD97722854DC5100BF25DE /* RawBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawBooks.swift; sourceTree = "<group>"; };
+		08FD97742854E52200BF25DE /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 		A80632A82833CE1C00D40F04 /* BookFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80632AB2833CE1C00D40F04 /* BookFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFinderApp.swift; sourceTree = "<group>"; };
 		A80632AD2833CE1C00D40F04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,9 +66,13 @@
 				A80632AB2833CE1C00D40F04 /* BookFinderApp.swift */,
 				A80632AD2833CE1C00D40F04 /* ContentView.swift */,
 				A80632B92833D03500D40F04 /* ImagePicker.swift */,
+				08FD976E2854BA4400BF25DE /* APIConnector.swift */,
+				08FD97702854C35000BF25DE /* PrepareRequests.swift */,
 				A80632AF2833CE1D00D40F04 /* Assets.xcassets */,
 				A80632B12833CE1D00D40F04 /* Preview Content */,
 				A80632BB2833E1A900D40F04 /* requests */,
+				08FD97722854DC5100BF25DE /* RawBooks.swift */,
+				08FD97742854E52200BF25DE /* Books.swift */,
 			);
 			path = BookFinder;
 			sourceTree = "<group>";
@@ -146,7 +158,11 @@
 			files = (
 				A80632BA2833D03500D40F04 /* ImagePicker.swift in Sources */,
 				A80632AE2833CE1C00D40F04 /* ContentView.swift in Sources */,
+				08FD976F2854BA4400BF25DE /* APIConnector.swift in Sources */,
+				08FD97752854E52200BF25DE /* Books.swift in Sources */,
 				A80632AC2833CE1C00D40F04 /* BookFinderApp.swift in Sources */,
+				08FD97712854C35000BF25DE /* PrepareRequests.swift in Sources */,
+				08FD97732854DC5100BF25DE /* RawBooks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
